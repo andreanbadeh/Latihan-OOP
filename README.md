@@ -13,6 +13,7 @@ Matkul: Bahasa Pemrograman
 # Penjelasan Code
 
 data -> mahasiswa.py
+
 Mahasiswa: Class yang mewakili entitas mahasiswa. Memiliki atribut: `nim, nama, dan jurusan`. 
 
 Fungsi-fungsi utama:
@@ -27,6 +28,7 @@ Fungsi-fungsi utama:
 `semua_mahasiswa()`: Mengembalikan seluruh data mahasiswa.
 
 view -> input_form.py
+
 Berisi class InputForm untuk menangani input dari pengguna.
-input_mahasiswa():
-Fungsi untuk meminta pengguna memasukkan data mahasiswa berupa NIM, Nama, dan Jurusan.
+
+`input_mahasiswa()`: Fungsi untuk meminta pengguna memasukkan data mahasiswa berupa NIM, Nama, dan Jurusan.

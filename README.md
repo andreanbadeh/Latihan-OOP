@@ -65,3 +65,11 @@ Cara kerjanya:
 6. `Keluar`: Mengakhiri program.
 
 - Setiap pilihan akan memanggil fungsi yang relevan dari modul di folder `data` atau `view`.
+
+Code Program Tersebut:
+
+![gambar](https://github.com/andreanbadeh/Latihan-OOP/blob/1143d6fa951b5abb514b802727d827813f8f4ea8/Images/data.png)
+
+Hasil Program Tersebut:
+
+![gambar](https://github.com/andreanbadeh/Latihan-OOP/blob/1143d6fa951b5abb514b802727d827813f8f4ea8/Images/Screenshot%202024-12-10%20082537.png)

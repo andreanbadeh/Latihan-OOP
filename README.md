@@ -51,10 +51,17 @@ Cara kerjanya:
 
 - Tampilkan menu pilihan kepada pengguna.
 - Pengguna memasukkan opsi, seperti:
-`Tambah mahasiswa`: Memasukkan NIM, Nama, dan Jurusan untuk disimpan.
-`Lihat semua mahasiswa`: Menampilkan seluruh data mahasiswa yang sudah tersimpan.
-`Cari mahasiswa`: Mencari mahasiswa berdasarkan NIM.
-`Ubah mahasiswa`: Memperbarui data mahasiswa tertentu.
-`Hapus mahasiswa`: Menghapus data mahasiswa berdasarkan NIM.
-`Keluar`: Mengakhiri program.
-Setiap pilihan akan memanggil fungsi yang relevan dari modul di folder `data` atau `view`.
+
+1. `Tambah mahasiswa`: Memasukkan NIM, Nama, dan Jurusan untuk disimpan.
+
+2. `Lihat semua mahasiswa`: Menampilkan seluruh data mahasiswa yang sudah tersimpan.
+
+3. `Cari mahasiswa`: Mencari mahasiswa berdasarkan NIM.
+
+4. `Ubah mahasiswa`: Memperbarui data mahasiswa tertentu.
+
+5. `Hapus mahasiswa`: Menghapus data mahasiswa berdasarkan NIM.
+
+6. `Keluar`: Mengakhiri program.
+
+- Setiap pilihan akan memanggil fungsi yang relevan dari modul di folder `data` atau `view`.

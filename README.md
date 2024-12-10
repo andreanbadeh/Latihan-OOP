@@ -32,3 +32,12 @@ view -> input_form.py
 Berisi class InputForm untuk menangani input dari pengguna.
 
 `input_mahasiswa()`: Fungsi untuk meminta pengguna memasukkan data mahasiswa berupa NIM, Nama, dan Jurusan.
+
+view/mahasiswa.py
+
+Berisi class `ViewMahasiswa` untuk menampilkan data mahasiswa ke layar.
+
+Fungsi utama:
+
+`tampilkan_semua_mahasiswa(data)`: Menampilkan semua data mahasiswa dalam bentuk daftar.
+`tampilkan_mahasiswa(mahasiswa)`: Menampilkan detail satu mahasiswa tertentu.

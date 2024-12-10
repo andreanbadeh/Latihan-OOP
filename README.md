@@ -16,7 +16,7 @@ data -> mahasiswa.py
 
 Mahasiswa: Class yang mewakili entitas mahasiswa. Memiliki atribut: `nim, nama, dan jurusan`. 
 
-Fungsi-fungsi utama:
+Fungsi utama:
 `tambah_mahasiswa(nim, nama, jurusan)`: Menambah data mahasiswa baru.
 
 `hapus_mahasiswa(nim)`: Menghapus mahasiswa berdasarkan NIM.
@@ -42,3 +42,19 @@ Fungsi utama:
 `tampilkan_semua_mahasiswa(data)`: Menampilkan semua data mahasiswa dalam bentuk daftar.
 
 `tampilkan_mahasiswa(mahasiswa)`: Menampilkan detail satu mahasiswa tertentu.
+
+main.py
+
+File utama program yang berisi menu untuk berinteraksi dengan pengguna.
+
+Cara kerjanya:
+
+- Tampilkan menu pilihan kepada pengguna.
+- Pengguna memasukkan opsi, seperti:
+`Tambah mahasiswa`: Memasukkan NIM, Nama, dan Jurusan untuk disimpan.
+`Lihat semua mahasiswa`: Menampilkan seluruh data mahasiswa yang sudah tersimpan.
+`Cari mahasiswa`: Mencari mahasiswa berdasarkan NIM.
+`Ubah mahasiswa`: Memperbarui data mahasiswa tertentu.
+`Hapus mahasiswa`: Menghapus data mahasiswa berdasarkan NIM.
+`Keluar`: Mengakhiri program.
+Setiap pilihan akan memanggil fungsi yang relevan dari modul di folder `data` atau `view`.
